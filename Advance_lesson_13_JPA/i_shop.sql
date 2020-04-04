@@ -1,0 +1,30 @@
+SET GLOBAL time_zone = '+2:00';
+DROP DATABASE IF EXISTS i_shop;
+CREATE DATABASE i_shop CHAR SET utf8;
+USE i_shop;
+
+CREATE TABLE product(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(70),
+description VARCHAR(255),
+price VARCHAR(70) 
+);
+
+CREATE TABLE user(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+email VARCHAR(255) NOT NULL,
+first_name VARCHAR(70) NOT NULL,
+last_name VARCHAR(70) NOT NULL,
+role VARCHAR(255) NOT NULL,
+password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE bucket(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+user_id INT(70),
+product_id INT(70),
+purchase_date TIMESTAMP
+);
+
+ALTER TABLE bucket ADD FOREIGN KEY (user_id) REFERENCES user(id);
+ALTER TABLE bucket ADD FOREIGN KEY (product_id) REFERENCES product(id);

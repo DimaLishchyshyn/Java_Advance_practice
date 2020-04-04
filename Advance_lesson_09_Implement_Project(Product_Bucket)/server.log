@@ -1,0 +1,15 @@
+2020-01-12 01:05:28 ERROR ProductDaoImpl:119 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:05:36 ERROR ProductDaoImpl:119 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:06:35 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:10:39 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
+2020-01-12 01:10:39 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
+2020-01-12 01:11:30 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:21:35 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:22:00 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:22:49 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:27:39 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:30:22 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-14 07:23:25 ERROR UserServiceImpl:22 - java.sql.SQLException: The server time zone value '????????? (????)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2020-01-15 14:58:21 ERROR UserServiceImpl:22 - java.sql.SQLException: The server time zone value '????????? (????)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2020-01-15 15:45:44 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
+2020-01-15 15:46:11 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.

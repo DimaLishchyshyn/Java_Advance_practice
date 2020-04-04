@@ -1,0 +1,4 @@
+SET GLOBAL time_zone = '+2:00';
+DROP DATABASE IF EXISTS jpa;
+CREATE DATABASE jpa CHAR SET utf8;
+USE jpa;

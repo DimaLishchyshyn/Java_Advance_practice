@@ -1,0 +1,11 @@
+2020-01-12 01:05:28 ERROR ProductDaoImpl:119 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:05:36 ERROR ProductDaoImpl:119 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:06:35 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Table 'employee.product' doesn't exist
+2020-01-12 01:10:39 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
+2020-01-12 01:10:39 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
+2020-01-12 01:11:30 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:21:35 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:22:00 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:22:49 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:27:39 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
+2020-01-12 01:30:22 ERROR ProductDaoImpl:48 - java.sql.SQLSyntaxErrorException: Unknown column 'description' in 'field list'
